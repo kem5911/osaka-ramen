@@ -1,0 +1,9 @@
+packages:
+  - '.'
+
+# Lifecycle scripts reviewed for this project.
+# esbuild (used by Vite) must run its postinstall to place the platform binary.
+allowBuilds:
+  '@firebase/util': true
+  esbuild: true
+  protobufjs: true
