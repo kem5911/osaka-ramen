@@ -123,5 +123,10 @@ export default function App() {
         </div>}
       </section>
     </main>
+    <footer className="site-footer">
+      <p className="site-footer-links"><a href="https://github.com/kem5911/osaka-ramen" target="_blank" rel="noreferrer">GitHub</a><span>데이터 출처: Google 지도 평점 (직접 조사)</span></p>
+      <p>오사카 라멘 랭킹 · 호서대학교 데이터베이스 개인 과제</p>
+      <p>Copyright © 2026 kem5911. All rights reserved.</p>
+    </footer>
   </div>
 }

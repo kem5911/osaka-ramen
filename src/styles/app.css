@@ -376,3 +376,12 @@ button svg { flex-shrink: 0; }
 /* 검색 결과: 라멘집 항목 표시와, 검색으로 고른 카드 강조 */
 .search-kind { font-style: normal; font-size: 9px; color: var(--orange); border: 1px solid currentColor; border-radius: 3px; padding: 1px 4px; margin-right: 8px; }
 .ramen-card.is-searched { outline: 2px solid var(--orange); outline-offset: 2px; }
+
+/* 사이트 하단 정보 */
+.site-footer { background: #262720; color: #b9b9ae; padding: 22px 48px 26px; font-size: 13px; line-height: 1.9; }
+.site-footer p { margin: 0; }
+.site-footer-links { display: flex; flex-wrap: wrap; gap: 6px 20px; color: #ffffff; font-weight: 700; margin-bottom: 4px !important; }
+.site-footer-links span { font-weight: 400; color: #b9b9ae; }
+.site-footer a { color: #ffffff; text-decoration: none; }
+.site-footer a:hover { color: var(--orange); }
+@media (max-width: 760px) { .site-footer { padding: 20px 22px 24px; font-size: 12px; } }
